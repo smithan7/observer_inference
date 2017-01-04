@@ -1,0 +1,7 @@
+<launch>
+
+  <group ns="pioneer_inference">
+    <node pkg="observer_inference" name="observer" type="observer" output="screen"/>
+  </group>
+
+</launch>
